@@ -3,7 +3,7 @@ const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 
 const clientId = '1076577779845435462'; 
-const guildId = '1064854195389345813'; 
+const guildId = '988670044152168518'; 
 
 module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
