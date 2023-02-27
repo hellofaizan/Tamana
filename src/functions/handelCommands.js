@@ -28,7 +28,7 @@ module.exports = (client) => {
                 await rest.put(
                     // If public Bot, use Routes.applicationCommands(clientId)
                     // If private Bot, use Routes.applicationGuildCommands(clientId, guildId)
-                    Routes.applicationGuildCommands(clientId, guildId), {
+                    Routes.applicationCommands(clientId), {
                         body: client.commandArray
                     },
                 );
